@@ -68,7 +68,7 @@
       
         <div class="divanuncio1" id="divanuncio1">
 
-            <a href="brigadeiro.html"><div class="card">
+            <a href="brigadeiro.php"><div class="card">
                 <div class="imgcard"><img src="img/brigadeiro.jpg"></div>
                 <div class="textocard">
                     <h2>Combo Brigadeiros</h2>
@@ -92,7 +92,7 @@
                 </div>
             </div></a>
 
-            <a href="fondue.html"><div class="card">
+            <a href="fondue.php"><div class="card">
                 <div class="imgcard"><img src="img/fondue.jpg"></div>
                 <div class="textocard">
                     <h2>Fondue - Pote com 500ml</h2>
@@ -103,7 +103,7 @@
         </div>
         <div class="divanuncio1" id="divanuncio1">
 
-          <a href="brownie.html"><div class="card">
+          <a href="brownie.php"><div class="card">
                 <div class="imgcard"><img src="img/brownie.jpg"></div>
                 <div class="textocard">
                     <h2>Brownie Recheado</h2>
@@ -111,7 +111,7 @@
                 </div>
             </div></a>  
 
-            <a href="buque.html"><div class="card">
+            <a href="buque.php"><div class="card">
                 <div class="imgcard"><img src="img/buque.jpg"></div>
                 <div class="textocard">
                     <h2>Buque de Chocolate</h2>
@@ -119,7 +119,7 @@
                 </div>
             </div></a>
 
-            <a href="ovo.html"><div class="card">
+            <a href="ovo.php"><div class="card">
                 <div class="imgcard"><img src="img/ovinho.jpg"></div>
                 <div class="textocard">
                     <h2>Ovo de Colher</h2>
@@ -127,7 +127,7 @@
                 </div>
             </div></a>  
 
-            <a href="cupcake.html"><div class="card">
+            <a href="cupcake.php"><div class="card">
                 <div class="imgcard"><img src="img/cupcake.jpg"></div>
                 <div class="textocard">
                     <h2>Mini Cupcake - 12un</h2>
