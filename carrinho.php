@@ -36,7 +36,7 @@
       <div class="carrinhoprod">
         <div class="produtoc" id="produto1">
           <img src="img/copo_felicidade.jpg" alt="Produto">
-          <div class="excluirc" onclick="remover1();"><i class="fa-solid fa-circle-xmark"></i></div>
+          <div class="excluirc" ><i class="fa-solid fa-circle-xmark" onclick="remover1();"></i></div>
           <div class="preco"><h2>R$<p id="precoprod">15.95</p></h2></div>
           <div class="tituprod"><h2>Copo da Felicidade - <br> 500ml</h2></div>
           <div class="descprod"><h2>Sabor: Morango/Chocolate</h2></div>
