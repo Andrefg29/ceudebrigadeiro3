@@ -43,13 +43,17 @@
     font-size: 1.5em;
 }
 
-.titu{
-    height: 150px;
-    justify-content: end;
-    justify-items: end;
-    align-content: space-between;
-    align-items: flex-end;
-    display: flex;
+.titu{  
+        position: absolute;
+        font-size: 40px;
+        display: flex;
+        top: 130px;
+        left: 50%;
+        text-align: center;
+        margin-left: -108px;
+        color: #fff;
+        text-shadow: 0.1em 0.1em 0.2em black;
+        z-index: 2;
     
 }
 
