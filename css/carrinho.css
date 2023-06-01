@@ -15,7 +15,7 @@ body{
   position: absolute;
   font-size: 40px;
   display: flex;
-  top: 130px;
+  top: 130px; 
   left: 50%;
   text-align: center;
   margin-left: -108px;
@@ -128,6 +128,16 @@ p{
   color: red;
   margin-top: -15px;
   cursor: pointer;
+
+}
+
+.excluirc i{
+  transition: 1.5s;
+}
+
+.excluirc i:hover{
+  color: rgb(167, 0, 0);
+  animation: vibrar infinite 2s
 }
 
 .produtoc img{
