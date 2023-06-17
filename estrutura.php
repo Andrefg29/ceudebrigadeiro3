@@ -175,7 +175,7 @@ include('conecta.php');
         <div class="entregas">
             <div class="mapa">
                 <h2>Nossa Localização</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.377283146523!2d-48.843015224364066!3d-26.3142800684665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb053595bd7fb%3A0xf74d98f507c1d560!2sSENAI%20Joinville%20Sul!5e0!3m2!1spt-BR!2sbr!4v1686051344216!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.7931506038317!2d-46.918865784879266!3d-23.177748453422932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf253dda0dfe29%3A0x6ac8941126b9620e!2sC%C3%A9u%20de%20Brigadeiro%20-%20Confeitaria%20Artesanal!5e0!3m2!1spt-BR!2sbr!4v1680188173436!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="cadastro">
                 <h2>Cadastro</h2>

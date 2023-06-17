@@ -47,9 +47,9 @@
           </div>
         </div>
 
-        <div class="produtoc" id="produto2">
+        <div class="produtoc">
           <img src="img/brownie.jpg" alt="Produto">
-          <div class="excluirc" ><i class="fa-solid fa-circle-xmark" onclick="remover2()"></i></div>
+          <div class="excluirc"><i class="fa-solid fa-circle-xmark"></i></div>
           <div class="preco"><h2>R$<p id="precoprod2">12.50</p></h2></div>
           <div class="tituprod"><h2>Brownie Recheado - <br> 1 Unidade</h2></div>
           <div class="descprod"><h2>Sabor: Ovomaltine c/ Oreo</h2></div>
@@ -60,22 +60,18 @@
           </div>
         </div>
 
-        
-
-        <a href="produtos.php" class="produtoc add"><i class="fa-solid fa-plus"></i></a>
-
       </div>
 
       <div class="carrinhototal">
         <h2>Pedido:</h2>
-        <div class="linha" id="linha1"><div class="prodtotal"><p id="qtde3">1</p>Copo da Felicidade</div><div class="precot">R$<p id="total">15.95</p></div></div>
-        <div class="linha" id="linha2"><div class="prodtotal"><p id="qtde4">1</p>Brownie Recheado </div><div class="precot">R$<p id="total2">12.50</p></div></div>
+        <div class="linha"><div class="prodtotal"><p id="qtde3">1</p>Copo da Felicidade</div><div class="precot">R$<p id="total">15.95</p></div></div>
+        <div class="linha"><div class="prodtotal"><p id="qtde4">1</p>Brownie Recheado </div><div class="precot">R$<p id="total2">12.50</p></div></div>
         <div class="linha"><div class="subtotal">Subtotal: </div><div class="precot">R$<p id="subtotal">31.90</p></div></div>
         <div class="linha"><div class="desconto">Desconto:</div><div class="precot">R$<p>0.00</p></div></div>
         <div class="linha"><div class="total">Total: </div><div class="precot">R$<p id="total4">31.90</p></div></div>
         
         <br>
-        <button class="finalizar" onclick="pgto();">Finalizar Pedido</button>
+        <a href="pagamento.html"><button class="finalizar">Finalizar Pedido</button></a>
 
       </div>
     </div>
@@ -138,46 +134,7 @@
                   total4.innerHTML = parseFloat(total4.innerHTML).toFixed(2)
                 }
 
-                function remover1(){
-                  document.getElementById('produto1').style.display = "none";
-                  document.getElementById('linha1').style.display = "none";
-                  total.innerHTML=0
-                  subtotal.innerHTML = parseFloat(total.innerHTML)+parseFloat(total2.innerHTML)
-                  total4.innerHTML = subtotal.innerHTML
-                  subtotal.innerHTML = parseFloat(subtotal.innerHTML).toFixed(2)
-                  total4.innerHTML = parseFloat(total4.innerHTML).toFixed(2)
-                }
-
-                function remover2(){
-                  document.getElementById('produto2').style.display = "none";
-                  document.getElementById('linha2').style.display = "none";
-                  total2.innerHTML=0
-                  subtotal.innerHTML = parseFloat(total.innerHTML)+parseFloat(total2.innerHTML)
-                  total4.innerHTML = subtotal.innerHTML
-                  subtotal.innerHTML = parseFloat(subtotal.innerHTML).toFixed(2)
-                  total4.innerHTML = parseFloat(total4.innerHTML).toFixed(2)
-                }
-
-                function pgto(){
-                  document.getElementById('pgto').style.display = "block"
-                }
-
-                function remover6(){
-                  document.getElementById('pgto').style.display = "none"
-                }
-
               </script>
-
-                <div class="pagamento" id="pgto">
-                <div class="formadepgto">
-                <div class="excluirpgto" ><i class="fa-solid fa-circle-xmark" onclick="remover6()"></i></div>
-                  <h2>Selecione a Forma de Pagamento:</h2>
-                  <div class="metodo">
-                  <a href="pagamento.html"><div class="cartao"><i class="fa-regular fa-credit-card"></i><br>Cartão de<br> Crédito/Débito</div></a>
-                  <a href="pix.html"><div class="pix"><i class="fa-brands fa-pix"></i><br>Pix</div></a>
-                  </div>
-                </div>
-                </div>
 
   </body>
 </html>

@@ -109,8 +109,12 @@ Além disso, nossos ovos de colher são lindamente decorados, tornando-os perfei
             </form>
           </article>
         </section>
+        </main>
+<br><br><br>
+<?php include('ultimospedidos.html') ?>
 
-
+<br>
+<?php include('footer.html') ?>
 
         <!-- Arquivos Bootstrap -->
         <script src="./assets/js/jquery.js"></script>

@@ -112,7 +112,12 @@
         </section>
 
 
+        </main>
+<br><br><br>
+<?php include('ultimospedidos.html') ?>
 
+<br>
+<?php include('footer.html') ?>
 </body>
 
 </html>
