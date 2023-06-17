@@ -9,7 +9,8 @@
 
   <link href="css/responsivo.css" rel="stylesheet"> 
   <link rel="stylesheet" href="css/produto.css">
-  <link rel="stylesheet" href="css/navbar.css">
+ <link rel="stylesheet" href="css/navbar.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
 </head>
 
 <body>

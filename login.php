@@ -27,7 +27,8 @@ if(isset($_GET["login"])){
   <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+		<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="icon" type="image/png" href="img/logo.png">
   <style>
     body{
       flex-direction: column
