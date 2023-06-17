@@ -61,3 +61,11 @@
     -webkit-transform: scale(1.02);
     transform: scale(1.02);
 }
+
+.fundopromo{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}

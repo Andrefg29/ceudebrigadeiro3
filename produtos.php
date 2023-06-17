@@ -31,7 +31,7 @@
     <div class="principal">
         <?php include('navbar.html') ?>
         <div class="fundopromo"></div>
-        <h1 class="titu">Produtos</h1>
+        <h1 class="titus">Produtos</h1>
        <br><br>
         <div class="divanuncio1" id="divanuncio1">
 
